@@ -3,16 +3,26 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		F0490D2126C859770084F100 /* Delt_InfoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0490D2026C859770084F100 /* Delt_InfoApp.swift */; };
-		F0490D2326C859770084F100 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0490D2226C859770084F100 /* ContentView.swift */; };
+		F0490D2326C859770084F100 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0490D2226C859770084F100 /* HomeView.swift */; };
 		F0490D2526C859780084F100 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0490D2426C859780084F100 /* Assets.xcassets */; };
 		F0490D2826C859780084F100 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0490D2726C859780084F100 /* Preview Assets.xcassets */; };
 		F0490D3326C859780084F100 /* Delt_InfoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0490D3226C859780084F100 /* Delt_InfoTests.swift */; };
 		F0490D3E26C859780084F100 /* Delt_InfoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0490D3D26C859780084F100 /* Delt_InfoUITests.swift */; };
+		F0490D4D26C85A890084F100 /* BrotherListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0490D4C26C85A890084F100 /* BrotherListView.swift */; };
+		F0490D5126C85AA80084F100 /* Brother.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0490D5026C85AA80084F100 /* Brother.swift */; };
+		F0490D5326C85DFF0084F100 /* BrotherListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0490D5226C85DFF0084F100 /* BrotherListItemView.swift */; };
+		F0490D5526C865220084F100 /* BrotherExtendedInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0490D5426C865220084F100 /* BrotherExtendedInfoView.swift */; };
+		F0490D5726C867500084F100 /* CustomUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0490D5626C867500084F100 /* CustomUI.swift */; };
+		F0490D5926C872850084F100 /* LabeledListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0490D5826C872850084F100 /* LabeledListRow.swift */; };
+		F0490D5C26C878350084F100 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = F0490D5B26C878350084F100 /* Alamofire */; };
+		F0490D5E26C87C760084F100 /* BrotherListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0490D5D26C87C760084F100 /* BrotherListModel.swift */; };
+		F0490D6126C881900084F100 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = F0490D6026C881900084F100 /* SwiftyJSON */; };
+		F0E8485C26C96DCF003C1368 /* BrotherListFilterMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E8485B26C96DCF003C1368 /* BrotherListFilterMenu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +45,7 @@
 /* Begin PBXFileReference section */
 		F0490D1D26C859770084F100 /* Delt Info.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Delt Info.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0490D2026C859770084F100 /* Delt_InfoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delt_InfoApp.swift; sourceTree = "<group>"; };
-		F0490D2226C859770084F100 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F0490D2226C859770084F100 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		F0490D2426C859780084F100 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F0490D2726C859780084F100 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F0490D2926C859780084F100 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +55,14 @@
 		F0490D3926C859780084F100 /* Delt InfoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Delt InfoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0490D3D26C859780084F100 /* Delt_InfoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delt_InfoUITests.swift; sourceTree = "<group>"; };
 		F0490D3F26C859780084F100 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0490D4C26C85A890084F100 /* BrotherListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrotherListView.swift; sourceTree = "<group>"; };
+		F0490D5026C85AA80084F100 /* Brother.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brother.swift; sourceTree = "<group>"; };
+		F0490D5226C85DFF0084F100 /* BrotherListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrotherListItemView.swift; sourceTree = "<group>"; };
+		F0490D5426C865220084F100 /* BrotherExtendedInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrotherExtendedInfoView.swift; sourceTree = "<group>"; };
+		F0490D5626C867500084F100 /* CustomUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomUI.swift; sourceTree = "<group>"; };
+		F0490D5826C872850084F100 /* LabeledListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabeledListRow.swift; sourceTree = "<group>"; };
+		F0490D5D26C87C760084F100 /* BrotherListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrotherListModel.swift; sourceTree = "<group>"; };
+		F0E8485B26C96DCF003C1368 /* BrotherListFilterMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrotherListFilterMenu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +70,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0490D6126C881900084F100 /* SwiftyJSON in Frameworks */,
+				F0490D5C26C878350084F100 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,11 +115,13 @@
 		F0490D1F26C859770084F100 /* Delt Info */ = {
 			isa = PBXGroup;
 			children = (
+				F0490D4B26C85A7B0084F100 /* BrotherFlow */,
 				F0490D2026C859770084F100 /* Delt_InfoApp.swift */,
-				F0490D2226C859770084F100 /* ContentView.swift */,
+				F0490D2226C859770084F100 /* HomeView.swift */,
 				F0490D2426C859780084F100 /* Assets.xcassets */,
 				F0490D2926C859780084F100 /* Info.plist */,
 				F0490D2626C859780084F100 /* Preview Content */,
+				F0490D5626C867500084F100 /* CustomUI.swift */,
 			);
 			path = "Delt Info";
 			sourceTree = "<group>";
@@ -130,6 +152,36 @@
 			path = "Delt InfoUITests";
 			sourceTree = "<group>";
 		};
+		F0490D4B26C85A7B0084F100 /* BrotherFlow */ = {
+			isa = PBXGroup;
+			children = (
+				F0E8485D26C97561003C1368 /* FilterFlow */,
+				F0E8485A26C96DA8003C1368 /* BrotherItemFlow */,
+				F0490D4C26C85A890084F100 /* BrotherListView.swift */,
+				F0490D5026C85AA80084F100 /* Brother.swift */,
+				F0490D5226C85DFF0084F100 /* BrotherListItemView.swift */,
+				F0490D5D26C87C760084F100 /* BrotherListModel.swift */,
+			);
+			path = BrotherFlow;
+			sourceTree = "<group>";
+		};
+		F0E8485A26C96DA8003C1368 /* BrotherItemFlow */ = {
+			isa = PBXGroup;
+			children = (
+				F0490D5426C865220084F100 /* BrotherExtendedInfoView.swift */,
+				F0490D5826C872850084F100 /* LabeledListRow.swift */,
+			);
+			path = BrotherItemFlow;
+			sourceTree = "<group>";
+		};
+		F0E8485D26C97561003C1368 /* FilterFlow */ = {
+			isa = PBXGroup;
+			children = (
+				F0E8485B26C96DCF003C1368 /* BrotherListFilterMenu.swift */,
+			);
+			path = FilterFlow;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +198,10 @@
 			dependencies = (
 			);
 			name = "Delt Info";
+			packageProductDependencies = (
+				F0490D5B26C878350084F100 /* Alamofire */,
+				F0490D6026C881900084F100 /* SwiftyJSON */,
+			);
 			productName = "Delt Info";
 			productReference = F0490D1D26C859770084F100 /* Delt Info.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +273,10 @@
 				Base,
 			);
 			mainGroup = F0490D1426C859770084F100;
+			packageReferences = (
+				F0490D5A26C878350084F100 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				F0490D5F26C881900084F100 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+			);
 			productRefGroup = F0490D1E26C859770084F100 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,8 +319,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0490D2326C859770084F100 /* ContentView.swift in Sources */,
+				F0490D5E26C87C760084F100 /* BrotherListModel.swift in Sources */,
+				F0490D4D26C85A890084F100 /* BrotherListView.swift in Sources */,
+				F0490D2326C859770084F100 /* HomeView.swift in Sources */,
+				F0490D5126C85AA80084F100 /* Brother.swift in Sources */,
 				F0490D2126C859770084F100 /* Delt_InfoApp.swift in Sources */,
+				F0490D5526C865220084F100 /* BrotherExtendedInfoView.swift in Sources */,
+				F0490D5326C85DFF0084F100 /* BrotherListItemView.swift in Sources */,
+				F0E8485C26C96DCF003C1368 /* BrotherListFilterMenu.swift in Sources */,
+				F0490D5726C867500084F100 /* CustomUI.swift in Sources */,
+				F0490D5926C872850084F100 /* LabeledListRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -580,6 +648,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F0490D5A26C878350084F100 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.3;
+			};
+		};
+		F0490D5F26C881900084F100 /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F0490D5B26C878350084F100 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F0490D5A26C878350084F100 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		F0490D6026C881900084F100 /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F0490D5F26C881900084F100 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F0490D1526C859770084F100 /* Project object */;
 }

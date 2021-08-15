@@ -11,7 +11,7 @@ import SwiftUI
 struct Delt_InfoApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
         }
     }
 }
